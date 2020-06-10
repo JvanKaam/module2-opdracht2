@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: darkblue;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul li {
+    margin: 20px; 
+    border: solid 2px black;
+}
+
+ul li:first-child {
+    margin-left: 0px;
+}
+
+.currentpage {
+    background-color: rgb(76, 78, 107);
+}
+
+ul li:hover {
+    background-color: lightblue;
+}
+
+[type="search"]:focus {
+    border: solid 8px aquamarine;
+}
+
+main a {
+    font-size: 50px;
+}
+
+main .link1:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+main .link2:active {
+    color: red;
+    font-style: italic;
+}
+
+main .link3:visited {
+    color: yellow;
+}
+
+[type="textarea"] {
+    color: green;
+    font-size: 20px;
+}
